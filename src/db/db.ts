@@ -13,10 +13,10 @@ interface selectedProject {
 
 export const currentProjects: IProject[] = [
   {
-    title: "Chaqmoq (AI based game)",
-    tools: "TypeScript, React.js, FireBase",
-    sourse: "",
-    href: "",
+    title: "Movie app",
+    tools: "TypeScript, React.js, React-Query",
+    sourse: "https://github.com/ikromwin/movie-app",
+    href: "movie-app025.vercel.app",
   },
 ];
 

@@ -15,9 +15,9 @@ export const msgs: Imsgs = {
     social_links: [
         {
             title: "GitHub",
-            href: "https://github.com/uikromm"
+            href: "https://github.com/ikromwin"
         }
     ]
 }
 
-export const CV_LINK: string = "https://drive.google.com/file/d/1eLIlD-Qbuqqr6KdjtefT1cjxGcW1u2cY/view?usp=sharing";
+export const CV_LINK: string = "https://drive.google.com/file/d/16qib_dAgAdx-MSgPudHt_3FLtSuJ0AMv/view?usp=sharing";
