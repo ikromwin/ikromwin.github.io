@@ -1,26 +1,26 @@
-interface IProject {
+interface CProject {
   title: string;
   tools: string;
   sourse: string;
   href: string;
 }
-interface selectedProject {
+interface SProject {
   title: string;
   tools: string;
   sourse: string;
   href: string;
 }
 
-export const currentProjects: IProject[] = [
+export const currentProjects: CProject[] = [
   {
     title: "Movie app",
-    tools: "TypeScript, React.js, React-Query",
+    tools: "TypeScript, React.js, React-Query (Tanstack)",
     sourse: "https://github.com/ikromwin/movie-app",
     href: "movie-app025.vercel.app",
   },
 ];
 
-export const selectedProjects: selectedProject[] = [
+export const selectedProjects: SProject[] = [
   {
     title: "Financial Sheet",
     tools: "JavaScript, React.js",
@@ -28,8 +28,8 @@ export const selectedProjects: selectedProject[] = [
     href: "",
   },
   {
-    title: "f-plus audit",
-    tools: "Next.js, TypeScript, Sanity studio (CRM) and SEO optimized",
+    title: "F-plus audit",
+    tools: "Next.js, TypeScript, Sanity and SEO optimized",
     sourse: "",
     href: "https://www.f-plusaudit.uz/",
   },

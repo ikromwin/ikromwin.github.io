@@ -20,4 +20,4 @@ export const msgs: Imsgs = {
     ]
 }
 
-export const CV_LINK: string = "https://drive.google.com/file/d/16qib_dAgAdx-MSgPudHt_3FLtSuJ0AMv/view?usp=sharing";
+export const KEY_LINK: string = "https://drive.google.com/file/d/12uqO45b4jDQeMvyhjXND9VYrsUadQbBT/view?usp=sharing";

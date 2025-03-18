@@ -2,13 +2,13 @@
 import Layout from "../layouts/Layout.astro";
 import ProjectItem from "../components/ProjectItem.astro";
 import { currentProjects, selectedProjects } from "../db/db";
-import { CV_LINK, msgs } from "../db/msg";
+import { KEY_LINK, msgs } from "../db/msg";
 ---
 
 <Layout title="Ikrom's Portfolio">
   <main class="main-content">
     <div class="cv-link">
-      <a href={CV_LINK}>
+      <a href={KEY_LINK}>
         {msgs.cv_txt}
       </a>
     </div>
@@ -91,7 +91,10 @@ import { CV_LINK, msgs } from "../db/msg";
     font-size: 24px;
     margin-top: 40px;
     opacity: 0.9;
+    font-weight: bold;
+    position: relative;
   }
+
   hr {
     opacity: 0.15;
   }
